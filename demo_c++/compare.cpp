@@ -11,6 +11,7 @@ int demo(int b)
    return b;
 }
 int s;
+int test1;
 int main()
 {
    int a=10;
