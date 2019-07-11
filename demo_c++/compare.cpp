@@ -10,6 +10,7 @@ int demo(int b)
 {
    return b;
 }
+int s;
 int main()
 {
    int a=10;

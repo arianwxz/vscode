@@ -6,6 +6,7 @@ int seea(int a)
    int b=a;
    return b;
 }
+int sd;
 
 int main()
 {
