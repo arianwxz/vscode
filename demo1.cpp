@@ -10,4 +10,5 @@ int main()
 {
     int b;
     int bc;
+    return bc;
 }
