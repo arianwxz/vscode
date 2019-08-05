@@ -57,8 +57,7 @@ void PrintAllStudentsInterface()
     {
         cout<<"学生ID"<<p->stuID<<"学生姓名"<<p->stuName<<"学生成绩"<<p->stuScore<<endl;
         p=p->next;
-    }
-    
+    }   
 }
 //释放所有指针
 void ReleaseAllStudentsInterface()
@@ -69,8 +68,7 @@ void ReleaseAllStudentsInterface()
         Student *tmp=p;
         p=p->next;
         delete tmp;
-    }
-    
+    }    
 }
 
 bool WriteStudentsToFile(string fileName)
@@ -94,6 +92,7 @@ bool WriteStudentsToFile(string fileName)
     fclose(fp);
     return true;
 }
+
 bool ReadStudentsFromFile(string fileName)
 {
     ReleaseAllStudentsInterface();
@@ -123,9 +122,7 @@ bool ReadStudentsFromFile(string fileName)
     }
 
     fclose(fp);
-    return true;
-    
-    
+    return true;  
 }
 
 
