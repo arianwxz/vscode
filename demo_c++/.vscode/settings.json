@@ -4,7 +4,12 @@
         "algorithm": "cpp",
         "ostream": "cpp",
         "iomanip": "cpp",
-        "*.tcc": "cpp"
+        "*.tcc": "cpp",
+        "istream": "cpp",
+        "optional": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "thread": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
