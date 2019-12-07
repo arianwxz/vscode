@@ -11,5 +11,6 @@
         "type_traits": "cpp",
         "thread": "cpp"
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "python.pythonPath": "C:\\Python37\\python3.exe"
 }
